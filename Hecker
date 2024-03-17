@@ -38,7 +38,7 @@ TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.BackgroundTransparency = 1
-TextLabel.Text = "Hecke FUCKS u"
+TextLabel.Text = "HeckeGui V1"
 TextLabel.TextSize = 29
 TextLabel.TextColor3 = Color3.new(0, 225, 0)
 TextLabel.Font = Enum.Font.Code
@@ -509,7 +509,7 @@ TextButton.MouseButton1Click:Connect(function()
 		while true do
 			msg.Text = "This Game Get Fucked By Hecke!!!"
 			wait(1.5)
-			msg.Text = "Get Fucked F00PLKIDD 1!1!!1!1"
+			msg.Text = "Get HACKED NIGGERS!!!!"
 			wait(1.5)
 			msg.Text = "Hecke WAS HERE!!!!!"
 			wait(1.5)
@@ -522,7 +522,7 @@ TextLabel.Position = UDim2.new(0.35, 0, 0.85, 0)
 TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Text = "Cerdits To : Hecke"
+TextLabel.Text = "Cerdits To : Hecke (Lokad20)"
 TextLabel.TextSize = 15
 TextLabel.BackgroundTransparency = 1
 TextLabel.TextColor3 = Color3.new(0, 255, 0)
