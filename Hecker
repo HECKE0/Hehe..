@@ -346,7 +346,7 @@ TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Disco Fog"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
-TextButton.TextColor3 = Color3.new(255, 255, 255)
+TextButton.TextColor3 = Color3.new(0, 255, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
