@@ -28,7 +28,7 @@ ImageLabel.BackgroundTransparency = 0
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0001, 0, 0.0001, 0)
 ImageLabel.Size = UDim2.new(0.885, 35, 0.83, 54)
-ImageLabel.Image = "rbxassetid://16771572669"
+ImageLabel.Image = "rbxassetid://16771568567"
 ImageLabel.Active = false
 
 local TextLabel = Instance.new("TextLabel")
@@ -58,7 +58,7 @@ TextButton.TextColor3 = Color3.new(0, 225, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 16771572669
+local ID = 16771568567
  local Skybox = true
  
 if Skybox == true then
@@ -83,11 +83,11 @@ TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Decal Spam"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
-TextButton.TextColor3 = Color3.new(255, 255, 255)
+TextButton.TextColor3 = Color3.new(0, 255, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 16771572669
+local ID = 16771568567
 
 for i,v in pairs (game.Workspace:GetChildren()) do
 		if v:IsA("Part") then
@@ -161,11 +161,11 @@ TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Particle"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
-TextButton.TextColor3 = Color3.new(255, 255, 255)
+TextButton.TextColor3 = Color3.new(0, 255, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 16771572669
+local ID = 16771568567
  local particle = true
  
 if particle == true then
@@ -219,7 +219,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://16771572669");
+			ParticleEmitter.Texture = ("rbxassetid://");
 	
 			ParticleEmitter.Parent = Workspace;
 			
@@ -228,7 +228,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 		end
 		end
 		
-		for Get,Workspace in ipairs(game.Workspace:GetChildren()) do
+		for Get,Workspace in ipairs(game.Workspace:GetChildren(16771568567)) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
@@ -297,7 +297,7 @@ for i,v in next,workspace:children''do
 				game.Lighting.Ambient=Color3.new(1,0,0);
 				game.Lighting.FogEnd=200;
 				game.Lighting.FogColor=Color3.new(0,0,0);
-				local dec = 'http://www.roblox.com/asset/?id=16771572669';
+				local dec = 'http://www.roblox.com/asset/?id=16771568567';
 				local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
 				--coroutine.wrap(function()
 				--for _,__ in pairs(fac) do
@@ -380,7 +380,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 					ParticleEmitter = Instance.new("ParticleEmitter");
 	
-					ParticleEmitter.Texture = ("rbxassetid://16771572669");
+					ParticleEmitter.Texture = ("rbxassetid://16771568567");
 	
 					ParticleEmitter.Parent = Workspace.Head;
 	
@@ -396,7 +396,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://16771572669");
+			ParticleEmitter.Texture = ("rbxassetid://16771568567");
 	
 			ParticleEmitter.Parent = Workspace;
 	
@@ -410,7 +410,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(b) do
 	
-			a["Skybox"..v]="rbxassetid://16771572669 "
+			a["Skybox"..v]="rbxassetid://16771568567"
 	
 		end
 	
@@ -481,7 +481,7 @@ TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Unanchor All"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
-TextButton.TextColor3 = Color3.new(255, 255, 255)
+TextButton.TextColor3 = Color3.new(0, 255, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
@@ -498,7 +498,7 @@ TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Hint"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
-TextButton.TextColor3 = Color3.new(255, 255, 255)
+TextButton.TextColor3 = Color3.new(0, 255, 0)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
@@ -525,7 +525,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Text = "Cerdits To : Hecke"
 TextLabel.TextSize = 15
 TextLabel.BackgroundTransparency = 1
-TextLabel.TextColor3 = Color3.new(255, 255, 255)
+TextLabel.TextColor3 = Color3.new(0, 255, 0)
 TextLabel.Font = Enum.Font.Code
 TextLabel.Parent = Frame
 
@@ -538,6 +538,6 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Text = "Made By Hecke"
 TextLabel.TextSize = 28
 TextLabel.BackgroundTransparency = 1
-TextLabel.TextColor3 = Color3.new(255, 255, 255)
+TextLabel.TextColor3 = Color3.new(0, 255, 0)
 TextLabel.Font = Enum.Font.Code
 TextLabel.Parent = Frame
