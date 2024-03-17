@@ -201,7 +201,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 					ParticleEmitter = Instance.new("ParticleEmitter");
 	
-					ParticleEmitter.Texture = ("rbxassetid://16771572669");
+					ParticleEmitter.Texture = ("rbxassetid://16771568567");
 	
 					ParticleEmitter.Parent = Workspace.Head;
 					
@@ -232,7 +232,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://16771572669");
+			ParticleEmitter.Texture = ("rbxassetid://16771568567");
 	
 			ParticleEmitter.Parent = Workspace.Torso;
 			
